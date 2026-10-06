@@ -1,0 +1,12 @@
+# LLM Framework
+langchain
+langchain-community
+langchain-ollama
+langchain-groq
+
+# Interface
+streamlit==1.41.1
+starlette==0.41.3
+
+# Utils
+python-dotenv
