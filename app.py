@@ -14,11 +14,11 @@ with st.sidebar:
 
     if provider == "Ollama (local)":
         selected_provider = "ollama"
-        model = st.selectbox("Modelo", ["llama3", "mistral", "gemma", "phi3"])
+        model = "llama3"
         st.info("Requiere Ollama corriendo localmente.")
     else:
         selected_provider = "groq"
-        model = st.selectbox("Modelo", ["openai/gpt-oss-20b", "openai/gpt-oss-120b", "qwen/qwen3.8-27b", "allam-2-7b"])
+        model = "openai/gpt-oss-20b"
         st.success("API Key cargada desde .env ✓")
 
 st.title("✍️ Generador de Contenido con IA")
